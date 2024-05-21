@@ -5,9 +5,9 @@ namespace GodModeArea
     public class GodModeAreaConfiguration : IRocketPluginConfiguration
     {
         public List<GodModeAreas> GodModeAreas = new();
-        public int GodModeTickrate = 100;
         public int GodModeMillisecondsExitDelay = 5000;
         public bool GodModeDefaultValue = false;
+        public bool VanillaGodMode = false;
         public bool DebugExtended = false;
         public void LoadDefaults()
         {
